@@ -10,7 +10,8 @@ In your case it should be `<Your Username>/math-cheat-sheet`.
 
 ## Check the `status` of our repo.
 ```bash
-$ git status
+$ cd math-cheat-sheet  # go to our repository
+$ git status  # check the status
 On branch master
 Your branch is up to date with 'origin/master'.
 

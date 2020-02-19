@@ -1,1 +1,1 @@
-Install git and register in GitHub.
+Install git from [here](https://git-scm.com/downloads) and register in GitHub: [here](https://github.com/).
