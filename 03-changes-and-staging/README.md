@@ -48,4 +48,5 @@ Most of the time you will find yourself using this command:
 $ git add .
 ```
 
-This essentially adds all changed/added files to the staging environment.
+This will add all the changed/added files in the current directory and those below to the staging environment.
+***Be careful with this one. It will not stage files from the parent directory!***
