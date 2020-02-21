@@ -23,7 +23,7 @@ nothing to commit, working tree clean
 - Second, what does ***Your branch is up to date with 'origin/master'.*** mean?
 - And third, what does ***nothing to commit, working tree clean*** mean?
 
-## This word ***branch*** is occuring everywhere... Let's return to it later, and for now look at the third **thing**: ***nothing to commit, working tree clean***
+### This word ***branch*** is occuring everywhere... Let's return to it later, and for now look at the third **thing**: ***nothing to commit, working tree clean***
 
 # The staging environment, the commit, and you.
 
@@ -35,4 +35,4 @@ project and allow you to go back to the state of a project at any point.
 So, how do you tell git which files to put into a commit? This is where the staging environment come in.
 Once you've added all the files you want to the staging environment, you can then tell git to package them into a commit. 
 
-## Now that we have the theory behind, lets see how a commit is done.
+### Now that we have the theory behind, lets see how a commit is done.
