@@ -11,7 +11,7 @@ Make a commit every time you make a *meaningful change* and *only if* the code r
 In this way you guarantee yourself that every time you revert to a commit, your project is going to work. :)
 
 Make commits often, but not too often.
-The jury doesn't want to see this such as:
+The jury doesn't want to see commits such as:
 ```
 [Update] change var name number to var name Number
 ```
