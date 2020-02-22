@@ -1,9 +1,9 @@
-# Working with branches.
+# Working with branches
 
 Now that we understand what branches are, lets create one and add a new file to it. <br>
 After we are done working on this branch, we will merge it with the ***master*** branch.
 
-## Creating a branch.
+## Creating a branch
 To create a new branch run the following command:
 ```bash
 $ git branch <new-branch-name>
@@ -14,7 +14,11 @@ Lets call our new branch - *division-feature*, because we will add a `division-c
 Run:
 ```bash
 $ git branch division-cheat-sheet
-$ git branch  # verify that our branch was created (the asterix prefix - * - denotes the current branch we are in)
+```
+
+We can also verify that our branch was created (the asterix prefix - * - denotes the current branch we are in)
+```bash
+$ git branch
   division-cheat-sheet
 * master
 ```
@@ -25,10 +29,10 @@ $ git checkout division-cheat-sheet
 Switched to branch 'division-cheat-sheet'
 ```
 
-Git has successfully switched to 'division-cheat-sheet' and now any change we made will be applied only to the branch 'division-cheat-sheet'. <br>
+Git has successfully switched to 'division-cheat-sheet' and now any change we make will be applied only to the branch 'division-cheat-sheet'. <br>
 The master branch will be let intact, unless we switch back to it.
 
-## Add the divison cheat sheet:
+## Add the divison cheat sheet
 
 I will create a new file called `division.txt` with the following content:
 ```
@@ -36,10 +40,10 @@ I will create a new file called `division.txt` with the following content:
 20 / 5 = 4
 ```
 
-Now stage and commit, like we already did in master.
+Now stage and commit, like we already did in step 5.
 
-## Merge:
-To merge `division-cheat-sheet` into master, swithc back to master and run `git merge <branch>`:
+## Merge
+To merge `division-cheat-sheet` into master, switch back to master and run `git merge <branch>`:
 ```bash
 $ git merge division-cheat-sheet
 Updating ccfad91..5fa4d46
@@ -61,11 +65,12 @@ Date:   Sat Feb 22 15:02:41 2020 +0200
 ...
 ```
 
-## Pushing branches.
+## Pushing branches
 
 If you know push your changes from master by `git push`, and go to github.com, you will see only the master branch. <br>
 Where is division-cheat-sheet branch we have justed created? Well, it is staying locally on our machine. We have not yet pushed it.
 
+### What exactly is `git push` doing?
 `git push` is an alias for `git push origin <current-branch>` which means:
 "Push the commits on branch 'current-branch' to origin (a.k.a. github.com/path-to-repo)."
 

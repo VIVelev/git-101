@@ -6,8 +6,8 @@ Alice wants to add a new feature to the cheat sheet, but I don't want her to bre
 I want the feature to be implemented and to work and after that, added to my code base.
 
 Two ways to do this:
-- Force Alice to do all work in one commit and push it to **math-cheat-sheet**. Which sounds wrong, why?
-- Make a separate ***branch*** and let Alice work gradually.
+- Wait for Alice to complete her work, and after she is done, push it to **math-cheat-sheet**. Which sounds wrong, why?
+- Make a separate ***branch*** for Alice and let her work peacefully, while I do my work in parallel.
 
 ## What is a branch?
 
@@ -25,4 +25,6 @@ After we are both ready with our work, we will ***merge*** both drawing by apply
 ### More abstractly, you can think of this picture when someone says "***branching***":
 ![git_branch_merge](git_branch_merge.png)
 
-## Let's go to the practice now.
+So a branch is like a parallel world where you can create commit without introducing bugs into production code. <br>
+
+#### Let's go to the practice now.

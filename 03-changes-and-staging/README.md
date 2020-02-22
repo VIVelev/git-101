@@ -34,7 +34,7 @@ $ git add <file>
 Just as `git status` told us.
 
 So lets add `mathy_stuff.txt` to the staging environment. In that way we let git know that we would like
-to include `mathy_stuff.txt` in out next commit.
+to include `mathy_stuff.txt` in our next commit.
 
 ```bash
 git add mathy_stuff.txt

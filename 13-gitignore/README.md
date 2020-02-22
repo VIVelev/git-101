@@ -18,20 +18,6 @@ To ignore a file named **filename**, place the following in your `.gitignore` fi
 filename
 ```
 
-## What about directories?
-Simple, again.
-
-To ignore a whole directory named **directory-name**, place the following in your `.gitignore` file:
-```
-directory-name/
-```
-
-## Files with specific extensions?
-To ignore files whole directory named **directory-name**, place the following in your `.gitignore` file:
-```
-directory-name/
-```
-
 # Quick Tip
 Use predefined `.gitignore` files for the programming language you are using. <br>
 Check this out: https://github.com/github/gitignore

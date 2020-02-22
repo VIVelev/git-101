@@ -72,5 +72,5 @@ $ cat mathy_stuff.txt
 
 Great!
 
-# A sneak peak, into the cheat sheet :)
+# More flexible undo commands:
 <img alt="undo_cheat_sheet" src="undo_cheat_sheet.png" width="25%" height="25%">
