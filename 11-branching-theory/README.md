@@ -22,4 +22,7 @@ After we are both ready with our work, we will ***merge*** both drawing by apply
 
 ![branching_analogy](branching_analogy.png)
 
+### More abstractly, you can think of this picture when someone says "***branching***":
 ![git_branch_merge](git_branch_merge.png)
+
+## Let's go to the practice now.
