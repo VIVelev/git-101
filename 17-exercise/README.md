@@ -1,4 +1,4 @@
-# git & GitHub Exercise
+# git & GitHub exercise
 
 The following practical exercise should give you some familiarity with using 
 git. 

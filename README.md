@@ -18,6 +18,7 @@ This tutorial is meant to be a simple, short introduction to [git](https://git-s
  - [Collaboration](./14-collaboration)
  - [gitignore](./15-gitignore)
  - [Tips and Tricks](./16-tips-and-tricks)
+ - [git & GitHub exercise](./17-exercise)
 
 ## How to use this tutorial?
 The tutorial is split into simple steps. To get the most out of the tutorial, please follow the steps as they are. Although, some steps can be studied on their own, separately, if you like.
