@@ -56,3 +56,13 @@ Your branch is ahead of 'origin/master' by 2 commits.
 
 nothing to commit, working tree clean
 ```
+
+## Moving around commits
+Use:
+```bash
+$ git checkout <commit>
+```
+Where commit is the *unique commit identifier*.
+
+This allows you to move around different versions of your code easily, whithout breaking anything.
+Try it out!
